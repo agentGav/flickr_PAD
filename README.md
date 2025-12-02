@@ -6,6 +6,9 @@ Flickr.com allows for lots of storage, but downloading your archive is a pain (l
 
 This python script can be run on your Mac or PC to download all your images and their metadata. 
 
+Note that after it's been running a while, you'll likely get the error "429 Client Error: Too Many Requests for url" which is flickr rate-limiting their API. Just stop, wait a moment, and restart. 
+Would be great if someone wanted to automate that :)
+
 1. Make sure you have enough local storage.
 2. Get your secure keys for API access via https://www.flickr.com/account/sharing  (click "get another key", give your app a name and select "desktop")
 3. Configure your settings in the flickr_PAD.py python file
